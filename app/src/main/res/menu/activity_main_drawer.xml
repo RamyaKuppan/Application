@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_men"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Men" />
+        <item
+            android:id="@+id/nav_women"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Women" />
+        <item
+            android:id="@+id/nav_kids"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Kids" />
+        <item
+            android:id="@+id/nav_Leather"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Leather" />
+    </group>
+
+    <item android:title="Get to know us">
+        <menu>
+            <item
+                android:id="@+id/nav_terms"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Terms and Condition" />
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Contact us | About us" />
+            <item
+                android:id="@+id/nav_return"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Return policy" />
+        </menu>
+    </item>
+
+</menu>
